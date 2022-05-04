@@ -18,7 +18,7 @@ class RecipeApp extends StatelessWidget {
     final ThemeData theme = ThemeData();
 // 3
     return MaterialApp(
-// 4
+      debugShowCheckedModeBanner: false,
       title: 'Recipe Calculator',
 // 5
       theme: theme.copyWith(
